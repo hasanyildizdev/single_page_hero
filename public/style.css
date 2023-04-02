@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#particles-js{
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #0088FF;
+}
+
+h2{
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #0088FF;
+}
+
+
+/* Header styles */
+header {
+  background-color: #000;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+/* Footer styles */
+footer {
+  font-size: 12px;
+	text-align: center;
+  color: #fff;
+  background-color: #000;
+  z-index: 1;
+}
+
+.logo_title{
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+nav ul {
+  display: flex;
+	list-style: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav li:hover{
+  transform: scale(1.1);
+}
+
+nav a:hover{
+  color: #0088FF;
+}
+
+/* Main styles */
+main {
+  flex: 1;
+  background: linear-gradient(to bottom, #F0E68C, #87CEFA);
+  margin: 0;
+  padding: 0px 10%;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+section {
+  margin:20px 0px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+  }
+  
+  .product {
+    flex: 1;
+    margin:auto;
+    width: 60%;
+    border-radius: 1%;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    margin-top: 0;
+  }
+  
+  .product p {
+    margin-bottom: 0;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+
+  .button{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #27ae60;
+  }
+
+  .button a{
+    color: #FFFFFF;
+    text-decoration: none;
+  }

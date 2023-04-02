@@ -1,0 +1,17 @@
+{
+  "name": "gooshbede",
+  "version": "1.0.0",
+  "description": "Phoenix Academy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+
+  "keywords": [  ],
+  "author": "Serhat Topcu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "supervisor": "^0.12.0"
+  }
+}
